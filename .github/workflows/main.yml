@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    # - cron:  "分 時 日 月 曜日"
-    - cron:  "38 2 * * *"
+    # - cron:  "分 時 日 月 曜日" -> (GMT) -9 = (JST)
+    - cron:  "12 3 * * *"
 
 jobs:
   build:
