@@ -19,5 +19,5 @@ jobs:
           git config --global user.name ${{ secrets.USER_NAME }}
           echo "w" >> README.md
           git add README.md
-          git commit -m '[add] www'
+          git commit -m '[add] Hello Wold'
           git push origin main
