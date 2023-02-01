@@ -6,7 +6,7 @@ on:
 
   schedule:
     # - cron:  "分 時 日 月 曜日"
-    - cron:  "30 2 * * *"
+    - cron:  "38 2 * * *"
 
 jobs:
   build:
