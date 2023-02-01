@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron:  "0 0 * * *"
+    # - cron:  "分 時 日 月 曜日"
+    - cron:  "4 11 * * *"
 
 jobs:
   build:
@@ -20,5 +21,5 @@ jobs:
           git config --global user.name ${{ secrets.USER_NAME }}
           echo "w" >> README.md
           git add README.md
-          git commit -m '[add] Hello Wold'
+          git commit -m '[add] Hello Wold!'
           git push origin main
