@@ -6,7 +6,7 @@ on:
 
   schedule:
     # - cron:  "分 時 日 月 曜日" -> (UTC) = (JST) -9 
-    - cron:  "17 3 * * *"
+    - cron:  "26 4 * * *"
 
 jobs:
   build:
