@@ -4,9 +4,9 @@ name: test
 on:
   workflow_dispatch:
 
-  schedule:
+  # schedule:
     # - cron:  "分 時 日 月 曜日" -> (UTC) = (JST) -9 
-    - cron:  "0 1 * * *"
+    # - cron:  "0 1 * * *"
 
 jobs:
   build:
